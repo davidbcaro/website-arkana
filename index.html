@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARKANA - Shopping Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    
+    <div class = "holder">
+        <header id = "header">
+            <div class = "container">
+                <div class = "header-top flex">
+                    <div class = "head-top-left-icon flex">
+                        <button type = "button" class = "btn-lang-option flex">
+                            <img src = "images/menu-icon.png" alt = "menu icon">
+                            <ul>
+                                <li>English</li>
+                                <li>French</li>
+                                <li>Spanish</li>
+                            </ul>
+                        </button>
+                        <button type = "button" class = "btn-search-bar flex">
+                            <img src = "images/search-icon.png" alt = "search icon">
+                            <input type = "search" class = "search-box">
+                        </button> 
+                    </div>
+
+                    <div class = "brand-name flex">
+                        <a href = "#">
+                            <img src = "images/logo.png" alt = "site logo">
+                        </a>
+                    </div>
+
+                    <div class = "head-top-right-icon flex">
+                        <button type = "button" class = "btn-share flex">
+                            <img src = "images/share-icon.png" alt = "share icon">
+                        </button>
+                        <button type = "button" class = "btn-shopping-cart flex">
+                            <img src = "images/cart-icon.png" alt = "shopping cart icon">
+                        </button>
+                    </div>
+                </div>
+
+                <div class = "header-main">
+                    <!-- header main content -->
+                    <div class = "header-main-content">
+                        <div class = "header-main-list">
+                            <div class = "header-main-item" data-id = "1">
+                                <h1>Tees & Tops</h1>
+                                <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, iure sunt possimus illum veritatis aliquam.</p>
+                                <a href = "#" class = "btn">discover more</a>
+                            </div>
+                            <div class = "header-main-item" data-id = "2">
+                                <h1>Casual Wear</h1>
+                                <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, iure sunt possimus illum veritatis aliquam.</p>
+                                <a href = "#" class = "btn">discover more</a>
+                            </div>
+                            <div class = "header-main-item" data-id = "3">
+                                <h1>Tailored Clothing</h1>
+                                <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, iure sunt possimus illum veritatis aliquam.</p>
+                                <a href = "#" class = "btn">discover more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of header main content -->
+                </div>
+            </div>
+            <button type = "button" class = "header-left-btn flex">
+                <i class = "fas fa-chevron-left"></i>
+            </button>
+            <button type = "button" class = "header-right-btn flex">
+                <i class = "fas fa-chevron-right"></i>
+            </button>
+        </header>
+
+        <main>
+            <section id = "services">
+                <div class = "container">
+                    <div class = "services-list flex">
+                        <div class = "services-item">
+                            <img src = "images/wallet-icon.png" alt = "wallet icon">
+                            <h2>Discount system</h2>
+                            <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi placeat nam sunt mollitia dolorum velit eos fugiat architecto odio praesentium?</p>
+                        </div>
+                        <div class = "services-item">
+                            <img src = "images/bus-icon.png" alt = "wallet icon">
+                            <h2>Discount system</h2>
+                            <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi placeat nam sunt mollitia dolorum velit eos fugiat architecto odio praesentium?</p>
+                        </div>
+                        <div class = "services-item">
+                            <img src = "images/person-icon.png" alt = "wallet icon">
+                            <h2>Discount system</h2>
+                            <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi placeat nam sunt mollitia dolorum velit eos fugiat architecto odio praesentium?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id = "categories">
+                <div class = "container">
+                    <div class = "categories-list flex">
+                        <div class = "categories-item">
+                            <img src = "images/categ1.png">
+                            <a href = "#" class = "btn">outwear</a>
+                        </div>
+                        <div class = "categories-item">
+                            <img src = "images/categ2.png">
+                            <a href = "#" class = "btn">blouse</a>
+                        </div>
+                        <div class = "categories-item">
+                            <img src = "images/categ3.png">
+                            <a href = "#" class = "btn">dresses</a>
+                        </div>
+                        <div class = "categories-item">
+                            <img src = "images/categ4.png">
+                            <a href = "#" class = "btn">t-shirts</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id = "trending">
+                <div class = "container">
+                    <div class = "section-heading">
+                        <h2>Top Trending</h2>
+                        <div class = "line"></div>
+                        <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus at deleniti repellat temporibus cum magni commodi exercitationem velit nisi, harum tenetur, quidem reprehenderit voluptatum autem numquam sit consequatur vitae.</p>
+                    </div>
+
+                    <div class = "trending-content">
+                        <div class = "trending-filter-btns flex">
+                            <button type = "button" class = "filter-btn">New Products</button>
+                            <button type = "button" class = "filter-btn">Prices drop</button>
+                            <button type = "button" class = "filter-btn">Best sales</button>
+                        </div>
+
+                        <div class = "trending-filter-list flex">
+                            <div class = "trending-item" data-product = "1">
+                                <div class = "trending-img">
+                                    <img src = "images/trend1.png" alt = "trending images">
+                                    <span class = "new-text flex">New</span>
+                                    <div class = "trending-btns flex">
+                                        <a href = "#" class = "btn">quick view</a>
+                                        <a href = "#" class = "btn">more details</a>
+                                    </div>
+                                </div>
+                                <div class = "trending-item-price">
+                                    <h3>Product Name Here</h3>
+                                    <span class = "price">$ 199.00</span>
+                                    <span class = "old-price">$ 299.00</span>
+                                </div>
+                            </div>
+
+                            <div class = "trending-item" data-product = "2">
+                                <div class = "trending-img">
+                                    <img src = "images/trend2.png" alt = "trending images">
+                                    <span class = "discount-text flex">-20%</span>
+                                    <span class = "new-text flex">New</span>
+                                    <div class = "trending-btns flex">
+                                        <a href = "#" class = "btn">quick view</a>
+                                        <a href = "#" class = "btn">more details</a>
+                                    </div>
+                                </div>
+                                <div class = "trending-item-price">
+                                    <h3>Product Name Here</h3>
+                                    <span class = "price">$ 199.00</span>
+                                </div>
+                            </div>
+
+                            <div class = "trending-item" data-product = "3">
+                                <div class = "trending-img">
+                                    <img src = "images/trend3.png" alt = "trending images">
+                                    <div class = "trending-btns flex">
+                                        <a href = "#" class = "btn">quick view</a>
+                                        <a href = "#" class = "btn">more details</a>
+                                    </div>
+                                </div>
+                                <div class = "trending-item-price">
+                                    <h3>Product Name Here</h3>
+                                    <span class = "price">$ 199.00</span>
+                                    <span class = "old-price">$ 299.00</span>
+                                </div>
+                            </div>
+
+                            <div class = "trending-item" data-product = "1">
+                                <div class = "trending-img">
+                                    <img src = "images/trend4.png" alt = "trending images">
+                                    <span class = "new-text flex">New</span>
+                                    <div class = "trending-btns flex">
+                                        <a href = "#" class = "btn">quick view</a>
+                                        <a href = "#" class = "btn">more details</a>
+                                    </div>
+                                </div>
+                                <div class = "trending-item-price">
+                                    <h3>Product Name Here</h3>
+                                    <span class = "price">$ 199.00</span>
+                                    <span class = "old-price">$ 299.00</span>
+                                </div>
+                            </div>
+
+                            <div class = "trending-item" data-product = "2">
+                                <div class = "trending-img">
+                                    <img src = "images/trend5.png" alt = "trending images">
+                                    <span class = "discount-text flex">-20%</span>
+                                    <span class = "new-text flex">New</span>
+                                    <div class = "trending-btns flex">
+                                        <a href = "#" class = "btn">quick view</a>
+                                        <a href = "#" class = "btn">more details</a>
+                                    </div>
+                                </div>
+                                <div class = "trending-item-price">
+                                    <h3>Product Name Here</h3>
+                                    <span class = "price">$ 199.00</span>
+                                </div>
+                            </div>
+
+                            <div class = "trending-item" data-product = "3">
+                                <div class = "trending-img">
+                                    <img src = "images/trend6.png" alt = "trending images">
+                                    <div class = "trending-btns flex">
+                                        <a href = "#" class = "btn">quick view</a>
+                                        <a href = "#" class = "btn">more details</a>
+                                    </div>
+                                </div>
+                                <div class = "trending-item-price">
+                                    <h3>Product Name Here</h3>
+                                    <span class = "price">$ 199.00</span>
+                                    <span class = "old-price">$ 299.00</span>
+                                </div>
+                            </div>
+
+                            <div class = "trending-item" data-product = "1">
+                                <div class = "trending-img">
+                                    <img src = "images/trend7.png" alt = "trending images">
+                                    <span class = "new-text flex">New</span>
+                                    <div class = "trending-btns flex">
+                                        <a href = "#" class = "btn">quick view</a>
+                                        <a href = "#" class = "btn">more details</a>
+                                    </div>
+                                </div>
+                                <div class = "trending-item-price">
+                                    <h3>Product Name Here</h3>
+                                    <span class = "price">$ 199.00</span>
+                                    <span class = "old-price">$ 299.00</span>
+                                </div>
+                            </div>
+
+                            <div class = "trending-item" data-product = "2">
+                                <div class = "trending-img">
+                                    <img src = "images/trend8.png" alt = "trending images">
+                                    <span class = "discount-text flex">-20%</span>
+                                    <span class = "new-text flex">New</span>
+                                    <div class = "trending-btns flex">
+                                        <a href = "#" class = "btn">quick view</a>
+                                        <a href = "#" class = "btn">more details</a>
+                                    </div>
+                                </div>
+                                <div class = "trending-item-price">
+                                    <h3>Product Name Here</h3>
+                                    <span class = "price">$ 199.00</span>
+                                </div>
+                            </div>
+
+                            <div class = "trending-item" data-product = "3">
+                                <div class = "trending-img">
+                                    <img src = "images/trend9.png" alt = "trending images">
+                                    <div class = "trending-btns flex">
+                                        <a href = "#" class = "btn">quick view</a>
+                                        <a href = "#" class = "btn">more details</a>
+                                    </div>
+                                </div>
+                                <div class = "trending-item-price">
+                                    <h3>Product Name Here</h3>
+                                    <span class = "price">$ 199.00</span>
+                                    <span class = "old-price">$ 299.00</span>
+                                </div>
+                            </div>
+
+                            <div class = "trending-item" data-product = "1">
+                                <div class = "trending-img">
+                                    <img src = "images/trend10.png" alt = "trending images">
+                                    <span class = "new-text flex">New</span>
+                                    <div class = "trending-btns flex">
+                                        <a href = "#" class = "btn">quick view</a>
+                                        <a href = "#" class = "btn">more details</a>
+                                    </div>
+                                </div>
+                                <div class = "trending-item-price">
+                                    <h3>Product Name Here</h3>
+                                    <span class = "price">$ 199.00</span>
+                                    <span class = "old-price">$ 299.00</span>
+                                </div>
+                            </div>
+
+                            <div class = "trending-item" data-product = "1">
+                                <div class = "trending-img">
+                                    <img src = "images/trend11.png" alt = "trending images">
+                                    <span class = "new-text flex">New</span>
+                                    <div class = "trending-btns flex">
+                                        <a href = "#" class = "btn">quick view</a>
+                                        <a href = "#" class = "btn">more details</a>
+                                    </div>
+                                </div>
+                                <div class = "trending-item-price">
+                                    <h3>Product Name Here</h3>
+                                    <span class = "price">$ 199.00</span>
+                                    <span class = "old-price">$ 299.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href = "#" class = "btn">all products</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id = "banner" class = "flex">
+                <div class = "banner-left flex">
+                    <img src = "images/banner.png" alt = "banner image">
+                </div>
+                <div class = "banner-right flex">
+                    <div class = "section-heading">
+                        <h2>About Our Products</h2>
+                        <div class = "line"></div>
+                        <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in, veniam voluptates voluptas totam mollitia error! Corporis, ipsam. Necessitatibus aperiam veritatis inventore, aliquid nemo adipisci. Repellat quae dolorum facilis beatae!</p>
+                        <a href = "#" class = "btn">discover more</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id = "brands">
+                <div class = "brands-list flex">
+                    <div class = "brand-item flex"j>
+                        <img src = "images/logo1.png" alt = "brand image">
+                    </div>
+                    <div class = "brand-item flex"j>
+                        <img src = "images/logo2.png" alt = "brand image">
+                    </div>
+                    <div class = "brand-item flex"j>
+                        <img src = "images/logo3.png" alt = "brand image">
+                    </div>
+                    <div class = "brand-item flex"j>
+                        <img src = "images/logo4.png" alt = "brand image">
+                    </div>
+                    <div class = "brand-item flex"j>
+                        <img src = "images/logo5.png" alt = "brand image">
+                    </div>
+                    <div class = "brand-item flex"j>
+                        <img src = "images/logo6.png" alt = "brand image">
+                    </div>
+                </div>
+            </section>
+
+            <section id = "photos">
+                <div class = "photos-list flex">
+                    <div class = "photo-item">
+                        <img src = "images/insta1.png" alt = "instagram photos">
+                    </div>
+                    <div class = "photo-item">
+                        <img src = "images/insta2.png" alt = "instagram photos">
+                    </div>
+                    <div class = "photo-item">
+                        <img src = "images/insta3.png" alt = "instagram photos">
+                    </div>
+                    <div class = "photo-item">
+                        <img src = "images/insta4.png" alt = "instagram photos">
+                    </div>
+                    <div class = "photo-item">
+                        <img src = "images/insta5.png" alt = "instagram photos">
+                    </div>
+                    <div class = "photo-item">
+                        <img src = "images/insta6.png" alt = "instagram photos">
+                    </div>
+                    <span>#Instagram</span>
+                </div>
+            </section>
+
+            <section id = "map">
+                <img src = "images/Map.png" alt = "location map">
+            </section>
+        </main>
+
+
+        <footer id = "footer">
+            <div class = "container">
+                <div class = "footer-list flex">
+                    <div class = "footer-item one">
+                        <a href = "#" class = "footer-logo">
+                            <img src = "images/logo.png">
+                        </a>
+                        <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, aliquam expedita odit possimus a ipsam.</p>
+                        <form>
+                            <div class = "form-element flex">
+                                <input type = "email" class = "form-control" placeholder="Enter your e-mail">
+                                <button type = "submit" class = "subs-btn">subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class = "footer-item">
+                        <h2>Products</h2>
+                        <ul>
+                            <li><a href = "#">Prices drop</a></li>
+                            <li><a href = "#">New products</a></li>
+                            <li><a href = "#">Best sales</a></li>
+                        </ul>
+                    </div>
+
+                    <div class = "footer-item">
+                        <h2>Information</h2>
+                        <ul>
+                            <li><a href = "#">Delivery</a></li>
+                            <li><a href = "#">Legal Notice</a></li>
+                            <li><a href = "#">Terms and Conditions of use</a></li>
+                            <li><a href = "#">About us</a></li>
+                            <li><a href = "#">Secure payment</a></li>
+                            <li><a href = "#">Contact us</a></li>
+                            <li><a href = "#">Sitemap</a></li>
+                            <li><a href = "#">Stores</a></li>
+                        </ul>
+                    </div>
+
+                    <div class = "footer-item">
+                        <h2>Your account</h2>
+                        <ul>
+                            <li><a href = "#">Addresses</a></li>
+                            <li><a href = "#">Credit sales</a></li>
+                            <li><a href = "#">Orders</a></li>
+                            <li><a href = "#">Personal info</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "copyright-text">
+                <div class = "container">
+                    <p class = "text">&copy; 2021 - This is a free template</p>
+                    <div>
+                        <img src = "images/pay_method.png" alt = "payment method">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
